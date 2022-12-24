@@ -1,17 +1,12 @@
 {
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "inquirer": "^9.1.4",
-    "mysql2": "^2.3.3"
-  },
+  "name": "12-employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "name": "12-employee-tracker",
-  "description": "",
-  "version": "1.0.0",
-  "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hugooloya/12-Employee-Tracker.git"
@@ -22,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Hugooloya/12-Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/Hugooloya/12-Employee-Tracker#readme"
+  "homepage": "https://github.com/Hugooloya/12-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
 }
